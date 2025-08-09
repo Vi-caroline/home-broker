@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const usuarioSalvo = JSON.parse(localStorage.getItem('usuario'));
 
             if (usuarioSalvo && emailDigitado === usuarioSalvo.email && senhaDigitada === usuarioSalvo.senha) {
-                window.location.href = 'carteira.html';
+               window.location.href = 'carteira.html';
             } else {
                 alert('Email ou senha inválidos');
             }
